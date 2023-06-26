@@ -1,0 +1,73 @@
+.reminder-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: translateX(100%);
+    width: 300px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    animation: slide-in 0.5s forwards;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .reminder-popup-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .reminder-popup-text {
+    margin-bottom: 10px;
+  }
+  
+  .reminder-popup-date-time {
+    font-style: italic;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .snooze-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rosybrown;
+    padding: 2px;
+  }
+  
+  .snooze-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .snooze-time {
+    font-weight: bold;
+  }
+
+  #snooze-container{
+    border: 1px dashed blue;
+  }
+  
+  .ok-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  

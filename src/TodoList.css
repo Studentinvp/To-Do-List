@@ -1,0 +1,41 @@
+.todo-list-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  width: 250px;
+  height: 49px;
+  border-radius: 5%;
+}
+
+.datetime-input {
+  margin: 5px;
+  width: 200px;
+  height: 49px;
+  border-radius: 5%;
+  font-size: large;
+}
+
+.add-button {
+  background-color: #3df206;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  width: 100px;
+  height: 49px;
+  border-radius: 4%;
+}
